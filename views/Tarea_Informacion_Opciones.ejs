@@ -1,0 +1,79 @@
+<% include partials/_header %>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Tarea_Informacion.css">
+</head>
+
+<body id="cuerpo">
+    <div class="container card-body">
+        <div class=" container card card-body" id="divprimero">
+            <div class=" container card card-body" id="divborde">
+                <div class="row">
+                    <div class="card-body col-md-15" id="divTitulo">
+                        <h4>Información de tarea</h4>
+                    </div>
+                    <div class="card-body col-md-5" id="divBotonTitulo">
+                        <a href="/" class="btn btn-danger" id="botontitulo">Atras</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" container card card-body" id="divCuerpo1">
+            <div class="card card-body" id="divCuerpo2">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label for="Observaciones"> Observaciones </label>
+                                <div class="card card-body" id="spam">
+                                    <span id="textspam">Estas son las observaciones sobre la tarea</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="Archivo"> Archivo</label>
+                                <div class="card card-body" id="spam">
+                                    <span id="textspam">nombre de archivo -ed</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="fechalimite"> Fecha Limite </label>
+                                <div class="card card-body" id="spam">
+                                    <span id="textspam">La fecha limite</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="/" class="btn btn-primary" id="botonDescargar">
+                                Descargar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" container card card-body" id="divCuerpo3">
+                <div class=" container card card-body" id="divborde">
+                    <div class="row">
+                        <div class="card-body col-md-12" id="divTitulo2">
+                            <h4>Opciones</h4>
+                        </div>
+                        <div class="card-body col-md-4" id="cuerpoReclamo">
+                            <a href="/" class="btn btn-primary" id="botonReclamo">Reclamo</a>
+                        </div>
+                        <div class="card-body col-md-4" id="cuerpoDenuncia">
+                            <a href="/" class="btn btn-primary" id="botonDenuncia">Denunciar</a>
+                        </div>
+                        <div class="card-body col-md-4" id="cuerpoCalificar">
+                            <a href="/" class="btn btn-primary" id="botonCalificar">Calificar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<% include partials/_footer %>

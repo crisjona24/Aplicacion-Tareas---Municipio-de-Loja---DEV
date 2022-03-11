@@ -1,0 +1,111 @@
+<% include partials/_header %>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Propuesta.css">
+    <link rel="stylesheet" href="/css/General/General.css">
+</head>
+
+<body id="cuerpo">
+    <div class="container card-body">
+        <div class=" container card card-body" style="width: 100%; height: 100%; margin-top: 2%; border-color: white;">
+            <div class=" container card card-body" style="border-color: black;">
+                <div class="row">
+                    <div class="card-body col-md-15"
+                        style="padding: 5px; text-align: left; padding-top: 2%; padding-left: 5%;">
+                        <h4>Elaboracion de propuesta</h4>
+                    </div>
+                    <div class="card-body col-md-5"
+                        style="padding: 2px; text-align: right; padding-top: 1%; padding-right: 10%;">
+                        <a href="/" class="btn btn-danger"
+                            style="width: auto; padding: 5px; padding-top: 5px; padding-left: 5px;">Atras</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" container card card-body" style="width: 100%; height: 100%; margin-top: 0%; border-color: white;">
+            <form action="/" method="post">
+                <div class="card card-body" style="border-color: black; margin-left: 5%; margin-right: 5%;">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <label for="titulopropuesta" class="label_Denunica"> Valor</label>
+                                        
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <label for="Detalles" class="label_Denunica1"> Detalles</label>
+                                        
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <label for="Presupuesto" id="presu"> Presupuesto</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <input type="text" name="titulopropuesta" id="titulopropuesta"
+                                            placeholder="Titulo*" class="form-control" style="width: 75%;">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-group">
+                                       <textarea name="Detalles" id="Detalles" cols="30" rows="10" class="form-control" placeholder="Detalles*"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-group">
+                                       
+                                        <input type="text" name="Presupuesto" id="Presupuesto"
+                                            placeholder="Presupuesto*" class="form-control" style="width: 75%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class=" container card card-body"
+                    style="width: 100%; height: 100%; margin-top: 1%; border-color: white;">
+                    <div class=" container card card-body" style="border-color: black;">
+                        <div class="row">
+                            <div class="card-body col-md-12"
+                                style="padding: 5px; text-align: left; padding-top: 1%; padding-left: 5%;">
+                                <h4>Opciones</h4>
+                            </div>
+                            <div class="card-body col-md-6"
+                                style="padding: 5px; text-align: center; padding-top: 1%; padding-left: 5%;">
+                                <a href="/" class="btn btn-primary"
+                                    style="width: auto; padding: 5px; padding-top: 5px; background-color:#18A0FB; border-color: #18A0FB; border-radius: 8%;">Enviar</a>
+                                <!--
+                                    <button type="submit" class="btn btn-primary"
+                                    style="background-color:#18A0FB; border-color: #18A0FB; margin-left: 25%; border-radius: 8%;">
+                                    Enviar
+                                </button>
+                                -->
+                            </div>
+                            <div class="card-body col-md-6"
+                                style="padding: 2px; text-align: center; padding-top: 1%; padding-right: 10%;">
+                                <a href="/" class="btn btn-primary"
+                                    style="width: auto; padding: 5px; padding-top: 5px; background-color:#18A0FB; border-color: #18A0FB; border-radius: 8%;">Cancelar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+<% include partials/_footer %>
