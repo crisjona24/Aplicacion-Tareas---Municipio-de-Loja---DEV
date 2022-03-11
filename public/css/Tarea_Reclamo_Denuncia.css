@@ -9,14 +9,17 @@
     padding-bottom: 12em;
     min-height: 100vh;
 }
-label{
+
+label {
     color: black;
 }
 
-.label_Denunica{
-    margin-top: 5%;
-}
+@media screen and (max-width: 767px) {
+    .label_Denunica {
+        margin-top: 5%;
+    }
 
-.label_Denunica1{
-    margin-top: 75%;
+    .label_Denunica1 {
+        margin-top: 5%;
+    }
 }
