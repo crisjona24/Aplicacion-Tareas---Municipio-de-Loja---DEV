@@ -7,15 +7,6 @@
     color: black;
 }
 
-.nuevo{
-    text-align: right; color: black; font-size: 15px;
-}
-
-#divnuevo{
-    display: flex;
-    columns: 3;
-}
-
 .lista {
     list-style-type: none;
     padding: 3%;
@@ -82,29 +73,37 @@
     margin-right: 5%;
 }
 
-#opciones{
-    align-items: center; text-align: center;
+#opciones {
+    align-items: center;
+    text-align: center;
 }
 
-@media screen and (max-width: 767px){
-    #opciones{
+@media screen and (max-width: 767px) {
+    #opciones {
         margin-top: 15px;
     }
+
     .btnRevisar {
         padding: 5px;
     }
-    .etiqueta, .lista {
+
+    .etiqueta,
+    .lista {
         font-size: 11px;
     }
-    h4{
+
+    h4 {
         font-size: 15px;
     }
+
     #btnAtrasDes {
         width: 18%;
         padding: 5px;
         font-size: 8px;
     }
-    #border, #divPropuestaDes3{
+
+    #border,
+    #divPropuestaDes3 {
         padding-top: 1px;
     }
 

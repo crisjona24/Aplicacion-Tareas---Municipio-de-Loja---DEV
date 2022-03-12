@@ -15,6 +15,10 @@ h4{
 }
 div label {
     color: black;
+    margin-left: 30%;
+}
+div input {
+    margin-left: 15%;
 }
 
 #divEditarTarea1 {
@@ -98,5 +102,12 @@ div label {
         font-size: 10px;
         padding: 5px;
         align-items: center;
+    }
+
+    div label {
+        margin-left: 1%;
+    }
+    div input {
+        margin-left: 2%;
     }
 }

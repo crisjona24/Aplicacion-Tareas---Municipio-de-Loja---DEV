@@ -10,3 +10,19 @@
     padding-bottom: 8em;
     min-height: 100vh;
 }
+
+.nuevo {
+    text-align: right;
+    color: black;
+    font-size: 15px;
+}
+
+.nuevo1 {
+    align-items: right;
+    margin-right: 4%;
+}
+
+#divnuevo {
+    display: flex;
+    columns: 3;
+}

@@ -7,9 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/_Tarea.css">
+    <link rel="stylesheet" href="/css/General/General.css">
 </head>
 
 <body id="cuerpo">
+    <div class="card card-body" id="divnuevo">
+        <div class="row">
+            <div class="col-md-11 nuevo">
+                <span class="nuevo">
+                    Carlos Villacis
+                </span>
+            </div>
+            <div class="col-md-1 nuevo">
+                <span class="nuevo">
+                    <i class="fa-solid fa-person"></i>
+                </span>
+            </div>
+        </div>
+    </div>
     <div class="container card-body">
         <div class=" container card card-body" id="divEditarTarea1">
             <div class="row">
@@ -23,32 +38,32 @@
         </div>
         <div class=" container card card-body" id="divEditarTarea4">
             <div class="card card-body" id="divEditarTarea5">
-                <div class="card-body row">
-                    <div class="col-md-2">
+                <div class="card-body row ">
+                    <div class="col-md-4">
                         <div class="form-group">
-                            <label for="Titulo" id="l1" style="margin-top: 10%;"> Titulo de tarea </label>
+                            <label for="Titulo" id="l1" style="margin-top: 5%;"> Titulo de tarea </label>
                         </div>
                         <div class="form-group">
-                            <label for="Descripcion" id="l2" style="margin-top: 14%;"> Descripcion </label>
+                            <label for="Descripcion" id="l2" style="margin-top: 6%;"> Descripcion </label>
                         </div>
                         <div class="form-group">
-                            <label for="Asignatura" id="l3" style="margin-top: 13%;"> Asignatura </label>
+                            <label for="Asignatura" id="l3" style="margin-top: 6%;"> Asignatura </label>
                         </div>
                         <div class="form-group">
-                            <label for="fechalimite" id="l4" style="margin-top: 20%;"> Fecha Limite </label>
+                            <label for="fechalimite" id="l4" style="margin-top: 6%;"> Fecha Limite </label>
                         </div>
                         <div class="form-group">
-                            <label for="Archivo" id="l5" style="margin-top: 15%;"> Archivo</label>
+                            <label for="Archivo" id="l5" style="margin-top: 6%;"> Archivo</label>
                         </div>
                         <div class="form-group">
-                            <label for="Observaciones" id="l6" style="margin-top: 15%;"> Observaciones </label>
+                            <label for="Observaciones" id="l6" style="margin-top: 6%;"> Observaciones </label>
                         </div>
                         <div class="form-group">
-                            <label for="Estimacion" id="l7" style="margin-top: 15%;"> Estimacion </label>
+                            <label for="Estimacion" id="l7" style="margin-top: 10%;"> Estimacion </label>
                         </div>
 
                     </div>
-                    <div class="col-md-10">
+                    <div class="col-md-7">
                         <form action="/" method="POST">
                             <div class="form-group">
                                 <input type="text" name="Titulo" id="Titulo" placeholder="Titulo*" class="form-control"
@@ -66,16 +81,9 @@
                                 <input type="text" name="fechalimite" id="fechalimite" placeholder="Fecha limite*"
                                     class="form-control">
                             </div>
-                            <div class="form-group row">
-                                <div class="col-md-8">
-                                    <input type="text" name="Archivo" id="Archivo" placeholder="Seleccione un archivo*"
-                                        class="form-control">
-                                </div>
-                                <div class="col-md-4">
-                                    <button type="submit" class="btn btn-primary" id="btnSubirArchivoT">
-                                        Subir
-                                    </button>
-                                </div>
+                            <div class="form-group">
+                                <input type="text" name="Archivo" id="Archivo" placeholder="Link de drive*"
+                                    class="form-control">
                             </div>
                             <div class="form-group">
                                 <input type="text" name="Observaciones" id="Observaciones" placeholder="Observaciones*"
