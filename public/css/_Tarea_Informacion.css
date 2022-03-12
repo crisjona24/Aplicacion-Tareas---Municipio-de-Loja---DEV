@@ -195,13 +195,15 @@
     width: 65%;
     border-color: black;
 }
-
-#botonDescargar {
+#textspam {
+    font-size: 15px;
+}
+#botonDescargarOpciones {
     background-color: #18A0FB;
     border-color: #18A0FB;
     align-items: center;
     border-radius: 8%;
-    margin-top: 120%;
+    margin-top: 140%;
 }
 
 #divCuerpo3 {
