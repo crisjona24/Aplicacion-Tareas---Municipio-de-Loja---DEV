@@ -15,3 +15,10 @@ Las ventanas de usuario se cargan mediante: http://localhost:3000/users/<direcci
 Para incluir el header y el footer(no completo):
 <% include partials/_header %>
 <% include partials/_footer %>
+
+EN CASO DE USAR UNA CARPETA SRC QUE ALBERGE LAS CARPTES, EN EL ARCHIVO PACKAGE.JSON USAR:
+    /*PARA lA CARPETA SRC: 
+    "scripts": {
+    "start": "nodemon src/bin/www"
+    },
+La carpeta src no llevara la carpeta nodemodules, archivos package json. 
