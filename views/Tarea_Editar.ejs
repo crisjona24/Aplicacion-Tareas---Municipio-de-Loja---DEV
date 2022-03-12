@@ -1,103 +1,96 @@
 <% include partials/_header %>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/_Tarea.css">
 </head>
+
 <body id="cuerpo">
     <div class="container card-body">
-        <div class=" container card card-body" style="width: 100%; height: 100%; margin-top: 2%; border-color: white;">
+        <div class=" container card card-body" id="divEditarTarea1">
             <div class="row">
-                <div class="card-body col-md-15"
-                    style="padding: 5px; text-align: left; padding-top: 2.5%; padding-left: 5%;">
+                <div class="card-body col-md-15" id="divEditarTarea2">
                     <h4>Edicion de tarea</h4>
                 </div>
-                <div class="card-body col-md-5"
-                    style="padding: 2px; text-align: right; padding-top: 1%; padding-right: 10%;">
-                    <a href="/" class="btn btn-danger"
-                        style="width: 25%; padding: 5px; padding-top: 5px; padding-left: 5px;">Cancelar</a>
+                <div class="card-body col-md-5" id="divEditarTarea3">
+                    <a href="/" class="btn btn-danger" id="btnCancelarEditarT">Cancelar</a>
                 </div>
             </div>
         </div>
-        <div class=" container card card-body" style="width: 100%; height: 100%; margin-top: 0%; border-color: white;">
-            <div class="card card-body" style="border-color: black; margin-left: 5%; margin-right: 5%;">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <div class="form-group">
-                                <label for="Titulo" style="margin-top: 10%;"> Titulo de tarea </label>
-                            </div>
-                            <div class="form-group">
-                                <label for="Descripcion" style="margin-top: 14%;"> Descripcion </label>
-                            </div>
-                            <div class="form-group">
-                                <label for="Asignatura" style="margin-top: 13%;"> Asignatura </label>
-                            </div>
-                            <div class="form-group">
-                                <label for="fechalimite" style="margin-top: 20%;"> Fecha Limite </label>
-                            </div>
-                            <div class="form-group">
-                                <label for="Archivo" style="margin-top: 15%;"> Archivo</label>
-                            </div>
-                            <div class="form-group">
-                                <label for="Observaciones" style="margin-top: 15%;"> Observaciones </label>
-                            </div>
-                            <div class="form-group">
-                                <label for="Estimacion" style="margin-top: 15%;"> Estimacion </label>
-                            </div>
+        <div class=" container card card-body" id="divEditarTarea4">
+            <div class="card card-body" id="divEditarTarea5">
+                <div class="card-body row">
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label for="Titulo" id="l1" style="margin-top: 10%;"> Titulo de tarea </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="Descripcion" id="l2" style="margin-top: 14%;"> Descripcion </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="Asignatura" id="l3" style="margin-top: 13%;"> Asignatura </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="fechalimite" id="l4" style="margin-top: 20%;"> Fecha Limite </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="Archivo" id="l5" style="margin-top: 15%;"> Archivo</label>
+                        </div>
+                        <div class="form-group">
+                            <label for="Observaciones" id="l6" style="margin-top: 15%;"> Observaciones </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="Estimacion" id="l7" style="margin-top: 15%;"> Estimacion </label>
+                        </div>
 
-                        </div>
-                        <div class="col-md-10">
-                            <form action="/" method="POST">
-                                <div class="form-group">
-                                    <input type="text" name="Titulo" id="Titulo" placeholder="Titulo*"
-                                        class="form-control" autofocus style="width: 65%;">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="Descripcion" id="Descripcion" placeholder="Descripcion*"
-                                        class="form-control" style="width: 65%;">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="Asignatura" id="Asignatura" placeholder="Asignatura*"
-                                        class="form-control" style="width: 65%;">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="fechalimite" id="fechalimite" placeholder="Fecha limite*"
-                                        class="form-control" style="width: 65%;">
-                                </div>
-                                <div class="form-group">
-                                    <div class="row">
-                                        <div class="col-md-8">
-                                            <input type="text" name="Archivo" id="Archivo"
-                                                placeholder="Seleccione un archivo*" class="form-control"
-                                                style="width: 100%;">
-                                        </div>
-                                        <div class="col-md-4">
-                                            <button type="submit" class="btn btn-primary"
-                                                style="border-radius: 8%; background-color:#18A0FB; border-color: #18A0FB; padding: 5px; margin-top: 3%; margin-left: 15%;">
-                                                Subir
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="Observaciones" id="Observaciones"
-                                        placeholder="Observaciones*" class="form-control" style="width: 65%;">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="Estimacion" id="Estimacion" placeholder="Estimacion*"
-                                        class="form-control" style="width: 65%;">
-                                </div>
-                                <button type="submit" class="btn btn-primary" style="border-radius: 8%;
-                                    background-color:#18A0FB; border-color: #18A0FB; margin-left: 25%;">
-                                    Guardar Actualizacion 
-                                </button>
-                            </form>
-                        </div>
                     </div>
+                    <div class="col-md-10">
+                        <form action="/" method="POST">
+                            <div class="form-group">
+                                <input type="text" name="Titulo" id="Titulo" placeholder="Titulo*" class="form-control"
+                                    autofocus>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="Descripcion" id="Descripcion" placeholder="Descripcion*"
+                                    class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="Asignatura" id="Asignatura" placeholder="Asignatura*"
+                                    class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="fechalimite" id="fechalimite" placeholder="Fecha limite*"
+                                    class="form-control">
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-8">
+                                    <input type="text" name="Archivo" id="Archivo" placeholder="Seleccione un archivo*"
+                                        class="form-control">
+                                </div>
+                                <div class="col-md-4">
+                                    <button type="submit" class="btn btn-primary" id="btnSubirArchivoT">
+                                        Subir
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="Observaciones" id="Observaciones" placeholder="Observaciones*"
+                                    class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="Estimacion" id="Estimacion" placeholder="Estimacion*"
+                                    class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="btnActualizar">
+                                Guardar Actualizacion
+                            </button>
+                        </form>
+                    </div>
+
                 </div>
             </div>
         </div>

@@ -1,15 +1,144 @@
-label{
+label {
     color: black;
 }
 
-#label_Propuesta1{
+#borde {
+    border-color: black;
+}
+
+#label_Propuesta {
     margin-top: 5%;
+    font-size: 20px;
 }
 
-#label_Propuesta1{
-    margin-top: 35%;
+#label_Propuesta1 {
+    font-size: 20px;
+    margin-top: 30%;
 }
 
-#presu{
-    margin-top: 50%;
+#presu {
+    font-size: 20px;
+    margin-top: 45%;
+}
+
+#divPropuesta1 {
+    margin-top: 2%;
+    border-color: white;
+}
+
+#divPropuesta2 {
+    border-color: black;
+}
+
+#divPropuesta3 {
+    padding: 5px;
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+#divPropuesta4 {
+    padding: 2px;
+    text-align: right;
+    padding-top: 1%;
+    padding-right: 10%;
+}
+
+#divPropuesta5 {
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+    border-color: white;
+}
+
+#divPropuesta6 {
+    border-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#divPropuesta7 {
+    width: 100%;
+    height: 100%;
+    margin-top: 1%;
+    border-color: white;
+}
+
+#divPropuesta8 {
+    padding: 5px;
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 5%;
+}
+
+#divPropuesta9 {
+    padding: 5px;
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 5%;
+}
+
+#divPropuesta10{
+    padding: 2px; text-align: center; padding-top: 1%; padding-right: 10%;
+}
+
+#inputPropuesta {
+    width: 75%;
+}
+
+#detalles{
+    width: 90%;
+}
+
+#btnAtrasPropuesta {
+    width: auto;
+    padding: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#btnEnviarPropuesta {
+    width: auto;
+    padding: 5px;
+    padding-top: 5px;
+    background-color: #18A0FB;
+    border-color: #18A0FB;
+    border-radius: 8%;
+}
+
+#btnCancelarPropuesta {
+    width: auto;
+    padding: 5px;
+    padding-top: 5px;
+    background-color: #18A0FB;
+    border-color: #18A0FB;
+    border-radius: 8%;
+}
+
+@media screen and (max-width: 990px) {
+    h4{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    h4{
+        font-size: 15px;
+    }
+    #divPropuesta3 {
+        padding: 5px;
+        text-align: left;
+        padding-top: 2%;
+        padding-left: 1%;
+    }
+    #label_Propuesta, #label_Propuesta1, #presu{
+        font-size: 12px;
+    }
+    #inputPropuesta{
+        width: 50%;
+    }
+
+    #detalles{
+        width: 70%;
+    }
 }

@@ -14,6 +14,27 @@ label {
     color: black;
 }
 
+#labelComentario{
+    color: black;
+}
+#border{
+    border-color: white;
+}
+#opciones {
+    align-items: center;
+    text-align: center;
+}
+
+.btnRevisar {
+    background-color: #18A0FB;
+    border-color: #18A0FB;
+    border-radius: 8%;
+}
+
+.labelComentario1{
+    color: black;
+    margin-top: 80%;
+}
 @media screen and (max-width: 767px) {
     .label_Denunica {
         margin-top: 5%;

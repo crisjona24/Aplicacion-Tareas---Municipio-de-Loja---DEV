@@ -12,74 +12,51 @@
 
 <body class="cuerpo">
     <div class="container card-body">
-        <div class=" container card card-body" style="width: 100%; height: 100%; margin-top: 2%; border-color: white;">
-            <div class=" container card card-body" style="border-color: black;">
+        <div class=" container card card-body" id="divReclamo4">
+            <div class="container card card-body" id="divReclamo5">
                 <div class="row">
-                    <div class="card-body col-md-15"
-                        style="padding: 5px; text-align: left; padding-top: 2%; padding-left: 5%;">
+                    <div class="card-body col-md-15" id="divReclamo6">
                         <h4 id="tituloreclamo">Reclamo de tarea</h4>
                     </div>
-                    <div class="card-body col-md-5"
-                        style="padding: 2px; text-align: right; padding-top: 1%; padding-right: 10%;">
-                        <a href="/" class="btn btn-danger"
-                            style="width: auto; padding: 5px; padding-top: 5px; padding-left: 5px;">Atras</a>
+                    <div class="card-body col-md-5" id="divReclamo7">
+                        <a href="/" class="btn btn-danger" id="btnAtrasReclamo">Atras</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class=" container card card-body" style="width: 100%; height: 100%; margin-top: 0%; border-color: white;">
+        <div class=" container card card-body" id="divReclamo8">
             <form action="/" method="post">
-                <div class="card card-body" style="border-color: black; margin-left: 5%; margin-right: 5%;">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="form-group">
-                                    <div class="form-group">
-                                        <label for="Observaciones"> Observaciones </label>
-                                        <textarea name="Observaciones" id="Observaciones" class="form-control"
-                                            style="column-gap: 15; row-gap: 5;" placeholder="Observaciones*"></textarea>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="form-group">
-                                        <label for="Archivo"> Archivo</label>
-                                        <input type="text" name="Archivo" id="Archivo" placeholder="Archivo*"
-                                            class="form-control ancholabel">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="form-group">
-                                        <label for="fechalimite"> Fecha Limite </label>
-                                        <input type="text" name="fechalimite" id="fechalimite"
-                                            placeholder="fechalimite*" class="form-control ancholabel">
-                                    </div>
-                                </div>
+                <div class="card card-body" id="divReclamo9">
+                    <div class="card-body row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label for="Observaciones"> Observaciones </label>
+                                <textarea name="Observaciones" id="Observaciones" class="form-control"
+                                    style="column-gap: 15; row-gap: 5;" placeholder="Observaciones*"></textarea>
                             </div>
-                            <div class="col-md-2">
-                                <a href="/" class="btn btn-primary botonreclamo_Subir">Subir</a>
+                            <div class="form-group">
+                                <label for="Archivo"> Archivo</label>
+                                <input type="text" name="Archivo" id="Archivo" placeholder="Archivo*"
+                                    class="form-control ancholabel">
                             </div>
+                            <div class="form-group">
+                                <label for="fechalimite"> Fecha Limite </label>
+                                <input type="text" name="fechalimite" id="fechalimite" placeholder="fechalimite*"
+                                    class="form-control ancholabel">
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="/" class="btn btn-primary botonreclamo_Subir">Subir</a>
                         </div>
                     </div>
                 </div>
-                <div class=" container card card-body"
-                    style="width: 100%; height: 100%; margin-top: 1%; border-color: white;">
-                    <div class=" container card card-body" style="border-color: black;">
-                        <div class="row">
-                            <div class="card-body col-md-12" id="divReclamo1">
-                                <h4 id="tituloreclamo">Opciones</h4>
-                            </div>
-                            <div class="card-body col-md-6" id="divReclamo2">
-                                <a href="/" class="btn btn-primary">Enviar</a>
-                                <!--
-                                    <button type="submit" class="btn btn-primary"
-                                    style="background-color:#18A0FB; border-color: #18A0FB; margin-left: 25%; border-radius: 8%;">
-                                    Enviar
-                                </button>
-                                -->
-                            </div>
-                            <div class="card-body col-md-6" id="divReclamo3">
-                                <a href="/" class="btn btn-primary">Cancelar</a>
-                            </div>
+                <div class="card card-body" id="border">
+                    <div class="row">
+                        <div class="col-md-6" id="opciones">
+                            <a href="/" class="btn btn-primary btnRevisar"> Aceptar</a>
+                        </div>
+                        <div class="col-md-6" id="opciones" >
+                            <a href="/" class="btn btn-primary btnRevisar"> Rechazar</a>
                         </div>
                     </div>
                 </div>
